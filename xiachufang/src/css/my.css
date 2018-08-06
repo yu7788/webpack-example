@@ -1,0 +1,250 @@
+.my{
+	/*background: pink;*/
+	width: 100%;
+}
+.my-container{
+	width: 80%;
+	margin: 50px auto;
+	/*background:red*/
+	/*border: 1px solid black;*/
+	
+}
+.my-container .shang{
+	display: flex;
+	justify-content: space-between;
+	height: 160px;
+	/*border-bottom:1px solid #45494C ;*/
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.my-container .shang .zuo{
+	width: 160px;
+	background: #CCCCCC;
+	border-radius: 100%;
+	color: white;
+}
+.my-container .shang .zuo p{
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	height: 80px;
+	font-size: 35px;
+	text-align: center;
+}
+.my-container .shang .zuo p:nth-child(1){
+	box-sizing: border-box;
+	padding-top:20px ;
+}
+.my-container .shang .zhong{
+	width: 625px;
+	/*background: papayawhip;*/
+}
+.my-container .shang .zhong h1{
+	height: 120px;
+	line-height: 120px;
+	width: 100%;
+	font-weight: 800;
+	font-size: 34px;
+}
+.my-container .shang .you{
+	width: 167px;
+	/*background: powderblue;*/
+}
+.my-container .shang .you button{
+		box-sizing: border-box;
+		width: 90px;
+		height: 25px;
+		line-height: 20px;
+		text-align: center;
+		font-size: 12px;
+		border: none;
+		background: white;
+		margin-left: 40px;
+}
+.my-container .shang .you button:hover{
+	background: #E4E7EB;
+	color: white;
+}
+.my-container .shang .you .down{
+/*	background: red;*/
+	display: flex;
+	box-sizing: border-box;
+	margin-top:80px ;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.my-container .shang .you .down p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-style: normal;
+	
+	/*width: 120px;*/
+	
+}
+.my-container .shang .you .down p:nth-child(1){
+	border-right: 1px solid #E4E7EB;
+	padding-right: 13px;
+}
+.my-container .shang .you .down p em{
+	font-style: normal;
+	font-weight: 900;
+	
+}
+.my-container .shang .you .down p i{
+	font-style: normal;
+	color: red;
+	font-weight: 900;
+}
+.my-container .shang .you .down p i:hover{
+	background: red;
+	color:white
+}
+.my-container .xia{
+	
+}
+.my-container .xia .nav{
+	display: flex;
+	justify-content: space-between;
+	height: 48px;
+	line-height: 48px;
+	margin-bottom: 40px;
+	
+	/*background: palegoldenrod;*/
+}
+.my-container .xia .nav ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+.my-container .xia .nav ul a{
+	list-style: none;
+	font-size: 18px;
+	text-align: center;
+	margin:0 5px;
+	background: #E4E7EB;
+	box-sizing: border-box;
+	padding: 0 10px;
+	list-style: none;
+	color: white;
+}
+.my-container .xia .nav ul a:hover{
+	background: red;
+}
+.my-container .xia .collection{
+	min-height: 323px;
+	background: palegoldenrod;
+}
+.my-container .xia .collection .gaikuang{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.my-container .xia .collection .gaikuang div{
+	padding-top: 5%;
+}
+.my-container .xia .collection .gaikuang div h4{
+	padding: 10px;
+}
+.my-container .xia .collection .caipu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.my-container .xia .collection .caipu button{
+	margin-left: 88%;
+	width:120px;
+	height: 48px;
+	background: red;
+	color: white;
+	border: none;
+	padding: 10px;
+}
+.my-container .xia .collection .caipu p{
+	font-size: 16px;
+}
+.my-container .xia .collection .zuopin{
+	text-align: center;
+	padding-top: 10%;
+	font-size: 18px;
+}
+.my-container .xia .collection .zuopin button{
+	border: none;
+	background: none;
+	color: red;
+}
+.my-container .xia .collection .zuopin button:hover{
+	background: red;
+	color: white;
+}
+.my-container .xia .collection .caidan{
+	border-bottom: 1px dotted #CCCCCC;
+	box-sizing: border-box;
+	padding: 20px 20px;
+}
+.my-container .xia .collection .caidan .shang{
+	display: flex;
+	height: 24px;
+}
+.my-container .xia .collection .caidan .shang .nick{
+	display: flex;
+	border: none;
+	
+}
+.my-container .xia .collection .caidan .shang .nick p{
+	padding-right:10px;
+	height: 100%;
+}
+.my-container .xia .collection .caidan .shang .nick p:nth-child(1){
+	border-right: 1px solid #45494C;
+}
+.my-container .xia .collection .caidan .shang .nick p:nth-child(2){
+	color: red;
+}
+.my-container .xia .collection .caidan .shang .nick p:nth-child(2):hover{
+	background: red;
+	color: white;
+}
+.my-container .xia .collection .caidan .shang button{
+	background: none;
+	color: red;
+	border: none;
+	padding: 5px;
+}
+.my-container .xia .collection .caidan .shang button:hover{
+	color: white;
+	background: red;
+}
+.my-container .xia .collection .caidan .xia{
+	margin-top: 50px;
+	font-size: 18px;
+	color: red;
+}
+.my-container .xia .collection .liuyanban{
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.my-container .xia .collection .liuyanban textarea{
+	width:614px;
+	height: 242px;
+}
+.my-container .xia .collection .liuyanban button{
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	background: red;
+	border: none;
+	margin: 20px 0;
+}
+.my-container .xia .collection .caogaoxiang{
+	width: 100%;
+	text-align: center;
+	font-size:18px;
+	padding-top: 10%;
+}

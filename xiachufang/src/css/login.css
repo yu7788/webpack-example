@@ -1,0 +1,102 @@
+.header{
+	height: 60px;
+	border-bottom:1px solid #ccc ;
+	width: 100%;
+	box-sizing: border-box;
+	padding:0 10%;
+	position: fixed;
+	top:0;
+	background: white;
+}
+.header .left{
+	float: left;
+	display: flex;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 60px;
+}
+.header .right{
+	float: right;
+	display: flex;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding: 30px 0;
+}
+.header .right .register{
+	color: red;
+}
+.header .right .register:hover{
+	background:red;
+	color: white;
+	cursor: pointer;
+}
+.content{
+	width: 1000px;
+	margin-left: 10%;
+	/*text-align: center;*/
+	border-bottom: 1px solid #E4E7EB;
+}
+.content h2{
+	text-align: center;
+	font-weight: 600;
+}
+.content .sec{
+	width: 100%;
+	/*background: pink;*/
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 10%;
+	margin: 60px 0;
+}
+.content .sec .left{
+	width: 25%;
+	/*border: 1px solid black;*/
+	color: white;
+}
+.content .sec .left div{
+	width: 100%;
+	/*background: pink;*/
+	display: flex;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	justify-content: space-around;
+}
+.content .sec .left .qq{
+	background:#8BCFDB
+}
+.content .sec .left .lang{
+	background:#F7815A
+}
+.content .sec .left .ban{
+	background:#00FA9A
+}
+.content .sec .left .qq:hover{
+	background:	#00CED1;
+}
+.content .sec .left .lang:hover{
+	background:	#FF4500;
+}
+.content .sec .left .ban:hover{
+	background:	#00FFFF;
+}
+.content .sec .right{
+	width: 65%;
+	/*background: papayawhip;*/
+	box-sizing: border-box;
+	margin-left: 80px;
+}
+.content .sec .right .form-group{
+	line-height: 46px;
+} 
+.content .sec .right .form-group input{
+	width: 300px;
+}
+.content .sec .right .form-group .fasong{
+	width: 130px;
+	font-size: 14px;
+	height: 30px;
+	line-height: 20px;
+}

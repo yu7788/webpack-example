@@ -1,0 +1,70 @@
+.header{
+	height: 80px;
+	border-bottom:1px solid #ccc ;
+	box-sizing: border-box;
+	width: 100%;
+	position: fixed;
+	padding: 0 10%;
+	top:0;
+	background: white;
+}
+.header .left{
+	float: left;
+	display: flex;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 80px;
+}
+.header .right{
+	float: right;
+	display: flex;
+	font-size: 18px;
+}
+.header .right .register{
+	color: red;
+}
+.header .right .register:hover{
+	background:red;
+	color: white;
+	cursor: pointer;
+}
+
+.content{
+	box-sizing: border-box;
+	margin-top: 90px;
+}
+.content h3{
+	font-size: 35px;
+	text-align: center;
+}
+.content form{
+	box-sizing: border-box;
+	padding: 10px 38%;
+}
+.content form label{
+	font-size: 16px;
+	box-sizing: border-box;
+	
+}
+.content form input{
+	border:1px solid #F7F9FA;
+	width: 300px;
+	box-sizing: border-box;
+	margin: 5px 0;
+	border-radius: 5px;
+	height: 30px;
+	margin: 8px;
+}
+.content form .tupiancode{
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.content form .btn{
+	width: 100%;
+	height: 40px;
+	line-height: 35px;
+	text-align: center;
+	margin: 10px 0;
+	font-size: 30px;
+	
+}
